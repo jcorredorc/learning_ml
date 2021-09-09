@@ -9,5 +9,5 @@ Codigos en python machine learning
 | Mod3 | Arboles de decisión y clasificación|
 | Mod4 | Redes Neuronales |
 | Mod5 | Support vector machine |
-| Mod6 | No supervisado - K-means |
+| Mod6 | Clustering - K-means |
 |Proyecto | Proyecto final - Robot movil [Database](https://www.kaggle.com/uciml/wall-following-robot)|
