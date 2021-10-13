@@ -40,6 +40,8 @@ Considerando el area de interes se revisan algunas bases de datos relacionadas c
 
 ---
 
+
+
 ## 📝 Index
 
 |  Jupyter Notebooks  |        Descripción         |
