@@ -1,6 +1,6 @@
 # Proyecto
 
-## Bases de datos
+## 🤓 Bases de datos
 
 Considerando el area de interes se revisan algunas bases de datos relacionadas con robótica, control e interacción humano-robot. En esta ultima se consideran bases de datos que permitan determinar localización o reconocer actividades realizadas por los humanos.
 
@@ -40,6 +40,8 @@ Considerando el area de interes se revisan algunas bases de datos relacionadas c
 
 ---
 
+## 📝 Index
+
 |  Jupyter Notebooks  |        Descripción         |
 |------------|----------------------------|
 | P01-Preproceso.ipynb ||
@@ -48,3 +50,7 @@ Considerando el area de interes se revisan algunas bases de datos relacionadas c
 |P03a-Multiclass-logistic-regression-using-sklearn.ipynb||
 |P04-Arboles.ipynb||
 |P05-SVM.ipynb||
+
+---
+
+## 📚 Resultados
