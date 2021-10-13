@@ -1,6 +1,5 @@
 # Proyecto
 
-
 ## Bases de datos
 
 Considerando el area de interes se revisan algunas bases de datos relacionadas con robótica, control e interacción humano-robot. En esta ultima se consideran bases de datos que permitan determinar localización o reconocer actividades realizadas por los humanos.
@@ -30,10 +29,22 @@ Considerando el area de interes se revisan algunas bases de datos relacionadas c
 
 ### Kaggle datasets
 
-[Sensor readings from a wall-following robot](https://www.kaggle.com/uciml/wall-following-robot)
+:wave: [Sensor readings from a wall-following robot](https://www.kaggle.com/uciml/wall-following-robot)
 
 [Cooperative robot collision/current dataset](https://www.kaggle.com/intema/cooperative-robot-collisioncurrent-dataset)
 
 ### Amazon’s AWS datasets
 
 [Yale-CMU-Berkeley (YCB) Object and Model Set](https://registry.opendata.aws/ycb-benchmarks/)
+
+
+---
+
+|  Jupyter Notebooks  |        Descripción         |
+|------------|----------------------------|
+| P01-Preproceso.ipynb ||
+| P02-RegresionSimpleLogistica.ipynb||
+|P03-RegresionMultivariableLogistica.ipynb||
+|P03a-Multiclass-logistic-regression-using-sklearn.ipynb||
+|P04-Arboles.ipynb||
+|P05-SVM.ipynb||
