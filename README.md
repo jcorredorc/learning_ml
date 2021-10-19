@@ -14,4 +14,4 @@ Codigos en python machine learning
 | Mod08 | Procesamiento natural del lenguaje|
 | Mod09| Series de tiempo |
 | Mod10 | Deep Learning |
-|Proyecto | Proyecto final - Robot movil [Database](https://www.kaggle.com/uciml/wall-following-robot)|
+|Proyecto | Robot movil [Database](https://www.kaggle.com/uciml/wall-following-robot)|
