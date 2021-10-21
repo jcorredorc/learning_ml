@@ -30,7 +30,7 @@ Considerando el área de interes se recopilan algunas bases de datos relacionada
 
 ### Kaggle datasets
 
-* :wave: [Sensor readings from a wall-following robot](https://www.kaggle.com/uciml/wall-following-robot)
+* :point_right: [Sensor readings from a wall-following robot](https://www.kaggle.com/uciml/wall-following-robot)
 
 * [Cooperative robot collision/current dataset](https://www.kaggle.com/intema/cooperative-robot-collisioncurrent-dataset)
 
@@ -41,7 +41,7 @@ Considerando el área de interes se recopilan algunas bases de datos relacionada
 
 ---
 <!-- # Sensor readings from a wall-following robot -->
-## Datos de sensores de un robot siguendo la pared
+## :robot: Datos de sensores de un robot siguendo la pared
 
 El conjunto de datos sobre el que se va a trabajar el proyecto es [Sensor readings from a wall-following robot](https://www.kaggle.com/uciml/wall-following-robot). 
 
@@ -54,7 +54,7 @@ Los [datos](https://www.kaggle.com/uciml/wall-following-robot) se toman de los s
 
 <!-- Dado que los datos son series de tiempo, se busca tratar cada instancia independiente -->
 
-### Detalles de los datos
+### :bar_chart: Detalles de los datos
 
 El conjunto de datos se construye de la medición de los 24 sensores instalados en el robot. los cuales estan ubicados cada $15^0$ entre sensores adyacentes;  así como también la dirección de movimiento del robot en cada muestra. La dirección  de movimiento se divide en 4 clases: hacia adelante (**move forward**), giro a la derecha leve (**slight right-turn**), giro brusco a la derecha (**sharp right-turn**) y giro a la izquierda leve (**slight left-turn**). 
 
@@ -67,7 +67,7 @@ La version de 4 sensores se construye apartir de los 24 sensores, tomando la lec
 <!-- Mas sensores puede incorporar mas ruido,  -->
 <!-- Slight right -> meaning that the road changes directly slightly, perhaps less than 15 degrees, and you should follow the road to the right. -->
 
-### Datos
+### :pushpin: Datos
 
 |Atributo | Descripción |
 |--------------|-------------|
