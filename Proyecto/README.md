@@ -95,6 +95,22 @@ La version de 4 sensores se construye apartir de los 24 sensores, tomando la lec
 
 ---
 
-## 📝 Resultados
+## :chart_with_upwards_trend: Resultados
+
+|                     | precision    |        |       | recall    |       |       | f1-score  |       |       | support |
+|---------------------|--------------|--------|-------|-----------|-------|-------|-----------|-------|-------|---------|
+|                     | Logistica    | Arbol  | NN    | Logistica | Arbol | NN    | Logistica | Arbol | NN    |         |
+| Move-Forward        | 1.00         | 1.00   |  0.99 | 0.81      | 1.00  | 0.98  | 0.89      | 1.00  |  0.99 | 409     |
+| Sharp-Right-Turn    | 0.88         | 1.00   |  0.99 | 0.99      | 1.00  | 1.00  | 0.93      | 1.00  | 0.99  | 446     |
+| Slight-Left-Turn    | 0.91         | 1.00   | 0.99  | 0.96      | 1.00  | 0.97  | 0.94      | 1.00  | 0.98  | 76      |
+| Slight-Right-Turn   |  0.89        | 1.00   | 0.98  | 0.98      | 1.00  |  0.98 | 0.93      | 1.00  | 0.98  | 161     |
+| accuracy            |              |        |       |           |       |       |   0.92    | 1.00  |  0.99 | 1092    |
+| macro avg           | 0.92         | 1.00   | 0.99  | 0.94      | 1.00  |  0.98 | 0.92      | 1.00  | 0.98  | 1092    |
+| weighted avg        | 0.93         | 1.00   | 0.99  | 0.92      | 1.00  | 0.99  | 0.92      | 1.00  |  0.99 | 1092    |
 
 
+Los valores de ROC AUC score, para clasificación logistica es de $0.984$, para Arbol $1.0$ y para el perceptron multicapa $0.99$.  
+
+Para este conjunto de datos los tres modelos permiten obtener una buena clasificación de las cuatro clases. Siendo el modelo de arbol de clasificación el que mejor desempeño tiene con puntaje perfecto. Le sigue el modelo de perceptron multicapa y por último el de clasificación con regresión logística.
+
+> El trabajo futuro es replicar el proceso con el robot disponible en el centro metalmecanico - Distrito Capital, donde se replique la tarea de seguimiento a la pared en un experimento real.
