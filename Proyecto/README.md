@@ -97,7 +97,7 @@ La version de 4 sensores se construye apartir de los 24 sensores, tomando la lec
 
 ## :chart_with_upwards_trend: Resultados
 
-### Definiciones de métricas
+<!-- ### Definiciones de métricas
 
 Las metricas comunes en los problemas de clasificación permiten evaluar el desempeño de los modelos,
 
@@ -111,7 +111,7 @@ Las metricas comunes en los problemas de clasificación permiten evaluar el dese
 
 **ROC** (Receiver Operating Curve), es la gráfica de TPR frente a FPR al variar el umbral (la R es de Rate).
 
-**AUC**  también denominada AUROC, es el área debajo de la curva ROC.
+**AUC**  también denominada AUROC, es el área debajo de la curva ROC. -->
 
 
 ### Resultados para los modelos obtenidos
