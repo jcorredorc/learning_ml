@@ -97,6 +97,25 @@ La version de 4 sensores se construye apartir de los 24 sensores, tomando la lec
 
 ## :chart_with_upwards_trend: Resultados
 
+### Definiciones de métricas
+
+Las metricas comunes en los problemas de clasificación permiten evaluar el desempeño de los modelos,
+
+| Metric                | Formula                                                                                                               | Interpretation                              |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- |
+| Accuracy              | $\displaystyle \frac{\textrm{TP}+\textrm{TN}}{\textrm{TP}+\textrm{TN}+\textrm{FP}+\textrm{FN}}$ | Rendimiento general del modelo |
+| Precision             | $\displaystyle \frac{\textrm{TP}}{\textrm{TP}+\textrm{FP}}$ | Qué tan precisas son las predicciones positivas   |
+| Recall<br>Sensitivity | $\displaystyle \frac{\textrm{TP}}{\textrm{TP}+\textrm{FN}}$| Cobertura de la muestra positiva real         |
+| Specificity           | $\displaystyle \frac{\textrm{TN}}{\textrm{TN}+\textrm{FP}}$ | Cobertura de la muestra negativa real          |
+| F1 score              | $\displaystyle \frac{ 2 \textrm{TP}}{ 2 \textrm{TP} + \textrm{FP} + \textrm{FN}}$| Métrica híbrida útil para clases no balanceadas |
+
+**ROC** (Receiver Operating Curve), es la gráfica de TPR frente a FPR al variar el umbral (la R es de Rate).
+
+**AUC**  también denominada AUROC, es el área debajo de la curva ROC.
+
+
+### Resultados para los modelos obtenidos
+
 |                     | precision    |        |       | recall    |       |       | f1-score  |       |       | support |
 |---------------------|--------------|--------|-------|-----------|-------|-------|-----------|-------|-------|---------|
 |                     | Logistica    | Arbol  | NN    | Logistica | Arbol | NN    | Logistica | Arbol | NN    |         |
@@ -109,7 +128,8 @@ La version de 4 sensores se construye apartir de los 24 sensores, tomando la lec
 | weighted avg        | 0.93         | 1.00   | 0.99  | 0.92      | 1.00  | 0.99  | 0.92      | 1.00  |  0.99 | 1092    |
 
 
-Los valores de ROC AUC score, para clasificación logistica es de 0.984, para Arbol 1.0 y para el perceptron multicapa 0.99.  
+Los valores de **ROC AUC** score, para clasificación logistica es de 0.984, para Arbol 1.0 y para el perceptron multicapa 0.99.  
+
 
 Para este conjunto de datos los tres modelos permiten obtener una buena clasificación de las cuatro clases. Siendo el modelo de arbol de clasificación el que mejor desempeño tiene con puntaje perfecto. Le sigue el modelo de perceptron multicapa y por último el de clasificación con regresión logística.
 
