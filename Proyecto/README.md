@@ -109,8 +109,8 @@ La version de 4 sensores se construye apartir de los 24 sensores, tomando la lec
 | weighted avg        | 0.93         | 1.00   | 0.99  | 0.92      | 1.00  | 0.99  | 0.92      | 1.00  |  0.99 | 1092    |
 
 
-Los valores de ROC AUC score, para clasificación logistica es de $0.984$, para Arbol $1.0$ y para el perceptron multicapa $0.99$.  
+Los valores de ROC AUC score, para clasificación logistica es de 0.984, para Arbol 1.0 y para el perceptron multicapa 0.99.  
 
 Para este conjunto de datos los tres modelos permiten obtener una buena clasificación de las cuatro clases. Siendo el modelo de arbol de clasificación el que mejor desempeño tiene con puntaje perfecto. Le sigue el modelo de perceptron multicapa y por último el de clasificación con regresión logística.
 
-> El trabajo futuro es replicar el proceso con el robot disponible en el centro metalmecanico - Distrito Capital, donde se replique la tarea de seguimiento a la pared en un experimento real.
+> El trabajo futuro es replicar el proceso con el robot disponible en el centro metalmecánico - Distrito Capital, donde se replique la tarea de seguimiento a la pared en un experimento real donde el robot se controle mediante el modelo IA.
