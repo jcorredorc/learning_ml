@@ -133,4 +133,4 @@ Los valores de **ROC AUC** score, para clasificación logistica es de 0.984, par
 
 Para este conjunto de datos los tres modelos permiten obtener una buena clasificación de las cuatro clases. Siendo el modelo de arbol de clasificación el que mejor desempeño tiene con puntaje perfecto. Le sigue el modelo de perceptron multicapa y por último el de clasificación con regresión logística.
 
-> El trabajo futuro es replicar el proceso con el robot disponible en el centro metalmecánico - Distrito Capital, donde se replique la tarea de seguimiento a la pared en un experimento real donde el robot se controle mediante el modelo IA.
+> Se propone replicar el proceso con el robot disponible en el centro metalmecánico - Distrito Capital, la tarea de seguimiento a la pared se debe desarrollar en un experimento real donde el robot se controle mediante el modelo IA obtenido.
