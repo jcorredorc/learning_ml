@@ -4,7 +4,7 @@ Codigos en python machine learning
 
 |  Folder  |        Descripción         |
 |------------|----------------------------|
-| Mod01 | Fundamentos Python|
+| [Mod01](Mod01/) | [Fundamentos Python](Mod01/)|
 | Mod02 | Preproceso, Regresion Lineal; Logística|
 | Mod03 | Arboles de decisión y clasificación|
 | Mod04 | Redes Neuronales |
